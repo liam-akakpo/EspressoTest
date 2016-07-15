@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EspressoTest</string>
+    <string name="thunder">⚡︎</string>
+
+    <string name="password_error_too_short">Password must be at least 8 characters</string>
+    <string name="password_error_case">Your password must contain a combination of uppercase and lowercase characters and at least one number</string>
+    <string name="email_invalid">Your email address is invalid</string>
+    <string name="unknown_error">Unknown error occurred </string>
+
+    <string name="monkey_a">\uD83D\uDE48</string>
+    <string name="monkey_b">\uD83D\uDE49</string>
+</resources>
