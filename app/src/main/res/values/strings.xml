@@ -9,4 +9,11 @@
 
     <string name="monkey_a">\uD83D\uDE48</string>
     <string name="monkey_b">\uD83D\uDE49</string>
+
+    <string name="chicken">\uD83D\uDC14</string>
+    <string name="octopus">\uD83D\uDC19</string>
+    <string name="cat">\uD83D\uDE38</string>
+    <string name="mouse">\uD83D\uDC2D</string>
+    <string name="panda">\uD83D\uDC3C</string>
+
 </resources>

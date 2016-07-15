@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MonkeyActivity" />
+        <activity android:name=".ui.monkey.MonkeyActivity" />
+        <activity android:name=".ui.animals.AnimalPagerActivity" />
     </application>
 
 </manifest>

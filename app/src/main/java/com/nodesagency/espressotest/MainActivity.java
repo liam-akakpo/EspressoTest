@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.nodesagency.espressotest.ui.monkey.MonkeyActivity;
 import com.nodesagency.espressotest.util.DialogUtils;
 import com.nodesagency.espressotest.util.PasswordValidator;
 
@@ -32,11 +33,12 @@ public class MainActivity extends AppCompatActivity {
      *
      * The real magic happens in LoginValidationTest.java
      *
-     */
+     **/
 
     /**
      * Validate the username using this pattern
      */
+
     public static final Pattern VALID_EMAIL_ADDRESS_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
 
     @BindView(R.id.userNameInput)
@@ -51,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     TextView showMeTheMonkey;
 
     @OnClick(R.id.showMeTheMonkey)
-    public void setShowMeTheMonkey() {
+    public void showMeTheMonkey() {
         startMonkeyActivity();
     }
 
